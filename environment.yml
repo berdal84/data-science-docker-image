@@ -2,7 +2,7 @@ name: data-science-env
 channels:
   - conda-forge
 dependencies:
-  - python=3.15
+  - python=3.11
   - pandas
   - openpyxl
   - cellpose>=4.1.0
