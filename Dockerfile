@@ -25,3 +25,6 @@ RUN conda tos accept --override-channels --channel https://repo.anaconda.com/pkg
  && conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
 COPY environment.yml /tmp/environment.yml
 RUN conda env create -f /tmp/environment.yml
+
+# Activate Environment
+RUN conda activate data-science-env
